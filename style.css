@@ -1,0 +1,12 @@
+@font-face {
+    font-family: domestic_manners;
+    src: url(Domestic_Manners.ttf);
+}
+
+* {
+    font-family: domestic_manners;
+}
+
+.label-output-pair {
+    align-content: center;
+}
