@@ -7,6 +7,54 @@
     font-family: domestic_manners;
 }
 
+#title {
+    font-size: 7vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+#new-joke-btn {
+    font-size: 1.5em;
+}
+
+#btn-div {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#checkbox-div {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 3vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#checkbox-div > span > input {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
 .label-output-pair {
-    align-content: center;
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 3vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.label-output-pair > * {
+    margin: 0
+}
+
+.label-output-pair > label {
+    padding-right: 2vw;
 }
