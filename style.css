@@ -8,13 +8,13 @@
 }
 
 #title {
-    font-size: 7vw;
+    font-size: 10vh;
     font-weight: 700;
     text-align: center;
 }
 
 #new-joke-btn {
-    font-size: 1.5em;
+    font-size: 4vh;
 }
 
 #btn-div {
@@ -31,14 +31,14 @@
     flex: auto;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 3vw;
+    font-size: 5vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
 
 #checkbox-div > span > input {
-    width: 1.5vw;
-    height: 1.5vw;
+    width: 3vh;
+    height: 3vh;
 }
 
 .label-output-pair {
@@ -46,7 +46,7 @@
     flex: auto;
     flex-direction: row;
     justify-content: flex-start;
-    font-size: 3vw;
+    font-size: 5vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
