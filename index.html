@@ -10,26 +10,32 @@
     <body>
         <header>
             <div>
-                <h1>Joke Generator</h1>
+                <h1 id="title">Joke Generator</h1>
             </div>
         </header>
         <section>
-            <button>New Joke</button>
+            <div id="btn-div">
+                <button id="new-joke-btn">New Joke</button>
+            </div>
+            <div id="checkbox-div">
+                <span>
+                    <label for="punchline-checkbox">Show Puchline?</label>
+                    <input type="checkbox" id="punchline-checkbox">
+                </span>
+            </div>
             <div class="label-output-pair">
                 <label>Joke Type:</label>
-                <p>joke type goes here</p>
+                <p id="joke-type">joke type goes here</p>
             </div>
             <div class="label-output-pair">
                 <label>Joke Setup:</label>
-                <p>Setup goes here</p>
+                <p id="joke-setup">Setup goes here</p>
             </div>
-            <div>
-                <div label-input-column>
-                    <label>Punchline:</label>
-                    <input type="checkbox">
-                </div>
-                <p>Punchline goes here</p>
+            <div class="label-output-pair">
+                <label>Punchline:</label>
+                <p id="joke-punchline" style="display:none">Punchline goes here</p>
             </div>
         </section>
+        <script src="./joke-fetcher.js"></script>
     </body>
 </html>
